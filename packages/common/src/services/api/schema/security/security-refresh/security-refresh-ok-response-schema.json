@@ -1,0 +1,16 @@
+{
+    "title": "SecurityRefreshOkResponse",
+    "type": "object",
+    "properties": {
+        "message": { "type": "string" },
+        "data": {
+            "type": "object",
+            "properties": {
+                "token": { "type": "string" },
+                "expiration_date": { "type": "string", "format": "date-time" }
+            },
+            "required": ["token", "expiration_date"]
+        }
+    },
+    "required": ["message", "data"]
+}

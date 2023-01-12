@@ -1,0 +1,28 @@
+export const Schema = {
+  SecurityNotificationOkResponse: require('./security/security-notification/security-notification-ok-response-schema.json'),
+  SecurityNotificationRequestBody: require('./security/security-notification/security-notification-request-body-schema.json'),
+  SecurityNotificationRequestParams: require('./security/security-notification/security-notification-request-params-schema.json'),
+
+  GenericNotOkResponse: require('./generic-not-ok-response-schema.json'),
+  SecurityChangePasswordOkResponse: require('./security/security-change-password/security-change-password-ok-response-schema.json'),
+  SecurityChangePasswordRequestBody: require('./security/security-change-password/security-change-password-request-body-schema.json'),
+  SecurityLoginOkResponse: require('./security/security-login/security-login-ok-response-schema.json'),
+  SecurityLoginRequestBody: require('./security/security-login/security-login-request-body-schema.json'),
+  SecurityLogoffOkResponse: require('./security/security-logoff/security-logoff-ok-response-schema.json'),
+  SecurityLogoffRequestBody: require('./security/security-logoff/security-logoff-request-body-schema.json'),
+  SecurityLogoffRequestParams: require('./security/security-logoff/security-logoff-request-params-schema.json'),
+  SecurityRefreshOkResponse: require('./security/security-refresh/security-refresh-ok-response-schema.json'),
+  SecurityRefreshRequestBody: require('./security/security-refresh/security-refresh-request-body-schema.json'),
+  SecurityResetPasswordRequestValidationOkResponse: require('./security/security-reset-password-request-validation/security-reset-password-request-validation-ok-response-schema.json'),
+  SecurityResetPasswordRequestValidationRequestBody: require('./security/security-reset-password-request-validation/security-reset-password-request-validation-request-body-schema.json'),
+  SecurityResetPasswordRequestValidationRequestParams: require('./security/security-reset-password-request-validation/security-reset-password-request-validation-request-params-schema.json'),
+  SecurityResetPasswordRequestOkResponse: require('./security/security-reset-password-request/security-reset-password-request-ok-response-schema.json'),
+  SecurityResetPasswordRequestRequestBody: require('./security/security-reset-password-request/security-reset-password-request-request-body-schema.json'),
+  SecurityResetPasswordRequestRequestParams: require('./security/security-reset-password-request/security-reset-password-request-request-params-schema.json'),
+  SecurityResetPasswordOkResponse: require('./security/security-reset-password/security-reset-password-ok-response-schema.json'),
+  SecurityResetPasswordRequestBody: require('./security/security-reset-password/security-reset-password-request-body-schema.json'),
+
+  UserSettingsOkResponse: require('./user/user-settings/user-settings-ok-response-schema.json'),
+  UserSettingsRequestBody: require('./user/user-settings/user-settings-request-body-schema.json'),
+  UserSettingsRequestParams: require('./user/user-settings/user-settings-request-params-schema.json'),
+};

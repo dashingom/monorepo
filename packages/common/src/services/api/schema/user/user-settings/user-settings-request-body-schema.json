@@ -1,0 +1,6 @@
+{
+    "title": "UserSettingsRequestBody",
+    "type": "object",
+    "properties": {},
+    "additionalProperties": false
+}

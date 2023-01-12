@@ -1,0 +1,19 @@
+{
+    "title": "SecurityLoginOkResponse",
+    "type": "object",
+    "properties": {
+        "message": { "type": "string" },
+        "data": {
+            "type": "object",
+            "properties": {
+                "id": { "type": "string" },
+                "expiration_date": { "type": "string", "format": "date-time" },
+                "email": { "type": "string" },
+                "token": { "type": "string" },
+                "timestamp": { "type": "string", "format": "date-time" }
+            },
+            "required": ["id", "expiration_date", "email", "token", "timestamp"]
+        }
+    },
+    "required": ["message", "data"]
+}

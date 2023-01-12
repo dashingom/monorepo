@@ -1,0 +1,6 @@
+{
+    "title": "SecurityNotificationRequestBody",
+    "type": "object",
+    "properties": {},
+    "additionalProperties": false
+}

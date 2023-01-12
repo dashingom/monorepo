@@ -1,0 +1,24 @@
+{
+    "title": "SecurityNotificationOkResponse",
+    "type": "object",
+    "properties": {
+        "message": {
+            "type": "string"
+        },
+        "data": {
+            "type": "object",
+            "properties": {
+                "token": {
+                    "type": "string"
+                },
+                "url": {
+                    "type": "string"
+                }
+            }
+        }
+    },
+    "required": [
+        "message",
+        "data"
+    ]
+}

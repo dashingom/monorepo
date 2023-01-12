@@ -1,0 +1,49 @@
+{
+    "title": "UserSettingsOkResponse",
+    "type": "object",
+    "properties": {
+        "message": { "type": "string" },
+        "data": {
+            "type": "object",
+            "properties": {
+                "user": {
+                    "type": "object",
+                    "properties": {
+                        "fName": { "type": "string" },
+                        "lName": { "type": "string" },
+                        "email": { "type": "string" },
+                        "phone": { "type": "string" }
+                    },
+                    "required": ["fName", "lName", "email", "phone"]
+                },
+
+                "notification": {
+                    "type": "object",
+                    "properties": {
+                        "emailenabled": { "type": "boolean" },
+                        "smsenabled": { "type": "boolean" }
+                    },
+                    "required": ["emailenabled", "smsenabled"]
+                },
+                "session": {
+                    "type": "object",
+                    "properties": {
+                        "sessionEnabled": { "type": "boolean" }
+                    },
+                    "required": ["sessionEnabled"]
+                },
+                "language": {
+                    "type": "object",
+                    "properties": {
+                        "id": {
+                            "type": "number"
+                        }
+                    },
+                    "required": ["id"]
+                }
+            },
+            "required": ["user", "notification", "session", "language"]
+        }
+    },
+    "required": ["message", "data"]
+}

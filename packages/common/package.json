@@ -1,0 +1,10 @@
+{
+  "name": "@fiji/common",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "author": "Onkar Nawghare",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf /dist && tsc"
+  }
+}
